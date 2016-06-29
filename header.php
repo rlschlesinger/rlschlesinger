@@ -3,6 +3,7 @@
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Ruthie|Dr+Sugiyama' rel='stylesheet' type='text/css'>
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
   </head>
@@ -12,8 +13,8 @@
 
       <!--site-header -->
       <header class="site-header">
-        <h1><a href="<?php echo home_url(); ?>"> <?php bloginfo('name'); ?></a></h1>
-        <h5><?php bloginfo('description'); ?></h5>
+        <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/images/screedbot.gif" alt="" " /></a>
+        <h5 class="blog-tagline"><?php bloginfo('description'); ?></h5>
 
         <nav class="site-nav">
 
